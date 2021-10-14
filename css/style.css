@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    overflow: hidden;
+} */
+
+ h3{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid silver;
+    color: #666666;
+    font-size: 35px;
+}
+
+.content{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 40%;
+    max-width: 500px;
+    min-width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px #0276c4;
+    padding: 15px 0;
+    margin: 20px 10px;
+}
+
+.content:hover{
+    box-shadow: 2px 2px 8px 1px #2691d9;
+}
+
+.content form{
+    padding: 0 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+form .input-grupo{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 45px 0;
+}
+
+.input-grupo input{
+    width: 100%;
+    padding: 0 10px;
+    height: 38px;
+    font-size: 1.2em;
+    color: #adadad;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.input-grupo label{
+    position: absolute;
+    left: 5px;
+    color: #2691d9;
+    transform: translateY(-50%);
+    font-size: 1.3em;
+    pointer-events: none;
+    transition: .5s;
+    top: -6px;
+}
+
+.input-grupo span::before{
+    content: '';
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+}
+
+.input-grupo input:focus ~ span::before{
+    width: 100%;
+}
+
+.boton{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    background: #2691d9;
+    font-size: 1.4em;
+    color: #e9f4fb;
+    border: 1px solid;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.boton:active{
+    transform: scale(0.98);
+}
+
+.link{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.link a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #666666;
+}
+
+.link a:hover{
+    color: #2691d9;
+}
+
+/* CSS para modal de html  */
+/* .modal-container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
+}
+
+.modal{
+    background-color: #fff;
+    text-align: center;
+    width: 40%;
+    max-width: 500px;
+    min-width: 400px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 1px #2691d9;
+}
+
+.show{
+    pointer-events: auto;
+    opacity: 1;
+    transition: .5s;
+}
+
+.btn-cambio{
+    width: 40%;
+}
+
+.cerrar{
+    background-color: rgba(248, 57, 57, 0.892);
+} */
+
+
+/* ================= css para alerta formulario en sweetalert ====================== */
+.input-grupo.modal label{
+    font-size: 1.2em;
+}
+
+.input-grupo.modal input{
+    font-size: 1em;
+}
+
+form .input-grupo.modal{
+    margin-bottom: -4px;
+}
+
+.content.sweet{
+    position: relative;
+    transform: translate(-50%, -25%);
+    width: 25%;
+    max-width: 500px;
+    min-width: 400px;
+    border-radius: none;
+    box-shadow: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+/* ============================================================================== */ 
+
