@@ -17,9 +17,20 @@
         <h2 class="mt-2 alert-secondary text-center">Módulo en mantenimiento</h2>
 
         <div class="row mt-3">
+            <label><h5>Nuevo departamento</h5></label>
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="nuevo_departamento">
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary mb-3" id="btn_nuevo_departamento"><i class="fas fa-file-export"></i></button>
+                <button class="btn btn-primary mb-3" id="btn_info_nuevo_departamento"><i class="fas fa-question-circle"></i></button>
+            </div>
+        </div>
+        
+        <div class="row mt-3">
             <label><h5>Nuevo estado para los recursos</h5></label>
             <div class="col-md-4">
-                <input type="text" class="form-control" name="estadoRecurso" id="estado_recurso">
+                <input type="text" class="form-control" id="estado_recurso">
             </div>
             <div class="col-md-2">
                 <button class="btn btn-primary mb-3" id="btn_estado_recurso"><i class="fas fa-file-export"></i></button>
@@ -27,27 +38,27 @@
             </div>
         </div>
 
-        <form class="row mt-3">
+        <div class="row mt-3">
             <label><h5>Nueva familia para los recursos</h5></label>
             <div class="col-md-4">
-                <input type="text" class="form-control" name="familiaRecurso" id="familia_recurso">
+                <input type="text" class="form-control" id="familia_recurso">
             </div>
             <div class="col-md-2">
-                <button type="submit" class="btn btn-primary mb-3"><i class="fas fa-file-export"></i></button>
-                <button type="button" class="btn btn-primary mb-3"><i class="fas fa-question-circle"></i></button>
+                <button class="btn btn-primary mb-3" id="btn_familia_recurso"><i class="fas fa-file-export"></i></button>
+                <button class="btn btn-primary mb-3" id="btn_info_familia_recurso"><i class="fas fa-question-circle"></i></button>
             </div>
-        </form>
+        </div>
 
-        <!-- ><form class="row mt-3">
-            <label for="tipo_movimiento" class="form-label"><h5>Nueva tipo de movimiento</h5></label>
+        <div class="row mt-3">
+            <label><h5>Nueva tipo de movimiento</h5></label>
             <div class="col-md-4">
-                <input type="text" class="form-control" name="tipoMovimiento" id="tipo_movimiento">
+                <input type="text" class="form-control" id="tipo_movimiento">
             </div>
             <div class="col-md-2">
-                <button type="submit" class="btn btn-primary mb-3"><i class="fas fa-file-export"></i></button>
-                <button type="button" class="btn btn-primary mb-3"><i class="fas fa-question-circle"></i></button>
+                <button class="btn btn-primary mb-3" id='btn_tipo_movimiento'><i class="fas fa-file-export"></i></button>
+                <button class="btn btn-primary mb-3" id='btn_info_tipo_movimiento'><i class="fas fa-question-circle"></i></button>
             </div>
-        </form> -->
+        </div>
         
     </div>
     <script src="js/bootstrap_js/bootstrap.min.js"></script>
