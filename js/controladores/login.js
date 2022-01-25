@@ -130,7 +130,8 @@ $('#btn-link').click(function (e) {
                                 });
                             }
                         }
-                    });
+                    }
+                    )
                 }
             }
         }

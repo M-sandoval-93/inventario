@@ -72,6 +72,7 @@ $(document).ready(function () {
                     }
                 }
             });
+            tabla_funcionarios.ajax.reload(null, false);
         } else{
             // Condición que permite crear un funcionario
             usuario = $("#mf_usuario").val();
@@ -111,8 +112,9 @@ $(document).ready(function () {
                     }
                 }
             });
+            tabla_funcionarios.ajax.reload(null, false);
         }
-        tabla_funcionarios.ajax.reload(null, false);
+        // tabla_funcionarios.ajax.reload(null, false);
         $("#modal_funcionarios").modal("hide"); 
     });
 
